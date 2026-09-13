@@ -145,6 +145,23 @@ praktinėmis pastabomis iš kasdienybės; tuo, ką išmokstu kurdamas ir eksperi
 <span title='2026-09-13 19:26:08 +0300 EEST'>September 13, 2026</span></footer>
   <a class="entry-link" aria-label="post link to Sveiki atvykę" href="https://novatitas366.github.io/posts/sveiki-atvyke/"></a>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Fibonačio skaičių skaičiavimas su C&#43;&#43;
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Fibonačio sekoje kiekvienas skaičius gaunamas sudėjus du prieš jį esančius skaičius. Seka prasideda taip: 0, 1, 1, 2, 3, 5, 8, 13...
+Žemiau pateikta C&#43;&#43; programa paprašo įvesti norimą sekos narių skaičių ir juos apskaičiuoja iteraciniu būdu:
+#include &lt;iostream&gt; int main() { int n; std::cout &lt;&lt; &#34;Kiek sekos nariu apskaiciuoti? &#34;; std::cin &gt;&gt; n; if (n &lt; 1 || n &gt; 93) { std::cout &lt;&lt; &#34;Iveskite skaiciu nuo 1 iki 93.\n&#34;; return 1; } long long pirmas = 0; long long antras = 1; for (int i = 0; i &lt; n; &#43;&#43;i) { std::cout &lt;&lt; pirmas &lt;&lt; &#34; &#34;; if (i &lt; n - 1) { long long kitas = pirmas &#43; antras; pirmas = antras; antras = kitas; } } std::cout &lt;&lt; &#39;\n&#39;; return 0; } Šio algoritmo laiko sudėtingumas yra O(n), o papildomos atminties sąnaudos – O(1), nes saugomos tik dvi paskutinės sekos reikšmės. Naudojant long long galima tiksliai atvaizduoti pirmąsias 93 reikšmes – nuo F(0) iki F(92).
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-12 12:00:00 +0300 EEST'>September 12, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to Fibonačio skaičių skaičiavimas su C&#43;&#43;" href="https://novatitas366.github.io/posts/fibonacio-skaiciai-cpp/"></a>
+</article>
     </main>
     
 <footer class="footer">

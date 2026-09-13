@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+  <title id="title">Fibonačio skaičių seka</title>
+  <desc id="desc">Kortelės su pirmosiomis Fibonačio sekos reikšmėmis.</desc>
+  <rect width="960" height="480" rx="24" fill="#20242c"/>
+  <rect width="960" height="70" rx="24" fill="#303642"/>
+  <rect y="46" width="960" height="24" fill="#303642"/>
+  <circle cx="42" cy="35" r="11" fill="#ff625a"/>
+  <circle cx="78" cy="35" r="11" fill="#ffbd2e"/>
+  <circle cx="114" cy="35" r="11" fill="#28c840"/>
+  <text x="480" y="47" fill="#f5f7fa" text-anchor="middle" font-family="sans-serif" font-size="28">Fibonačio seka</text>
+  <g font-family="monospace" font-size="40" text-anchor="middle">
+    <g fill="#303642" stroke="#67d8ef" stroke-width="3">
+      <rect x="45" y="155" width="100" height="100" rx="14"/><rect x="155" y="155" width="100" height="100" rx="14"/>
+      <rect x="265" y="155" width="100" height="100" rx="14"/><rect x="375" y="155" width="100" height="100" rx="14"/>
+      <rect x="485" y="155" width="100" height="100" rx="14"/><rect x="595" y="155" width="100" height="100" rx="14"/>
+      <rect x="705" y="155" width="100" height="100" rx="14"/><rect x="815" y="155" width="100" height="100" rx="14"/>
+    </g>
+    <g fill="#f5f7fa"><text x="95" y="220">0</text><text x="205" y="220">1</text><text x="315" y="220">1</text><text x="425" y="220">2</text><text x="535" y="220">3</text><text x="645" y="220">5</text><text x="755" y="220">8</text><text x="865" y="220">13</text></g>
+  </g>
+  <text x="480" y="350" fill="#9ca7b8" text-anchor="middle" font-family="sans-serif" font-size="26">Kiekvienas narys yra dviejų ankstesnių narių suma</text>
+</svg>

@@ -15,5 +15,12 @@
       <guid>https://novatitas366.github.io/posts/sveiki-atvyke/</guid>
       <description>Trumpa įžanga į šį tinklaraštį ir būsimas temas.</description>
     </item>
+    <item>
+      <title>Fibonačio skaičių skaičiavimas su C&#43;&#43;</title>
+      <link>https://novatitas366.github.io/posts/fibonacio-skaiciai-cpp/</link>
+      <pubDate>Sat, 12 Sep 2026 12:00:00 +0300</pubDate>
+      <guid>https://novatitas366.github.io/posts/fibonacio-skaiciai-cpp/</guid>
+      <description>Paprastas Fibonačio sekos skaičiavimo pavyzdys C&#43;&#43; kalba.</description>
+    </item>
   </channel>
 </rss>
